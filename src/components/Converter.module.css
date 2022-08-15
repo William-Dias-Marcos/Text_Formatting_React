@@ -1,0 +1,43 @@
+.title {
+  text-align: center;
+}
+
+.area {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.textArea {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  width: 100%;
+  max-width: 900px;
+
+  font-size: 1.2rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* reponsividade dos buttons */
+}
+.button {
+  border: 1px solid #000000;
+  border-radius: 3px;
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 25px;
+  text-decoration: none;
+  padding: 5px 15px;
+  position: relative;
+}
+
+.button:active {
+  top: 4px;
+}
