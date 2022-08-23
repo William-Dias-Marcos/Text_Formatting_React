@@ -1,5 +1,25 @@
-.title {
-  text-align: center;
+:root {
+  --body-bg: #fafafa;
+  --body-color: #555;
+}
+
+.dark_mode:root {
+  --body-bg: #212529;
+  --body-color: #899095;
+}
+
+body {
+  margin: 10px;
+  background-color: var(--body-bg);
+  color: var(--body-color);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 900px;
+  margin: auto;
 }
 
 .area {
@@ -17,19 +37,22 @@
   max-width: 900px;
 
   font-size: 1.2rem;
+
+  color: var(--body-color);
+  background-color: var(--body-bg);
 }
 
 .buttons {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* reponsividade dos buttons */
 }
+
 .button {
-  border: 1px solid #000000;
+  border: 1px solid var(--body-color);
   border-radius: 3px;
-  color: #000000;
-  background-color: #ffffff;
+  color: var(--body-color);
+  background-color: var(--body-bg);
   font-size: 14px;
   font-weight: bold;
   line-height: 25px;
