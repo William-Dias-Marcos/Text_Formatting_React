@@ -18,8 +18,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  max-width: 900px;
-  margin: auto;
+
+  font-family: "Itim", cursive;
+}
+
+.checkbox {
+  display: flex;
+  justify-content: end;
+  max-width: 1100px;
+
+  font-family: "Itim", cursive;
 }
 
 .area {
@@ -59,6 +67,8 @@ body {
   text-decoration: none;
   padding: 5px 15px;
   position: relative;
+
+  font-family: "Itim", cursive;
 }
 
 .button:active {

@@ -60,13 +60,11 @@ function Converter() {
 
   return (
     <>
-      <div className={styles.header}>
-        <h1>Text Formatting</h1>
-        <label>
-          <input type="checkbox" id="checkbox" onChange={darkMode} />
-          Dark Mode
-        </label>
-      </div>
+      <h1 className={styles.header}>Text Formatting</h1>
+      <label className={styles.checkbox}>
+        <input type="checkbox" id="checkbox" onChange={darkMode} />
+        Dark Mode
+      </label>
 
       <div className={styles.area}>
         <textarea
