@@ -1,17 +1,15 @@
 // components
-import Converter from './components/Converter'
-
+import Converter from "./components/Converter";
 
 // css
-import './App.css'
+import "./App.css";
 
 function App() {
-
   return (
     <div className="App">
-      <Converter/>
+      <Converter />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
