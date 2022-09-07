@@ -4,14 +4,14 @@
 
 Página para editar textos de várias formas.
 
-❗️PROJETO EM DESENVOLVIMENTO❗️
+https://textformating.netlify.app/
 
 ---
 
 ## ⚙️ Funcionalidades
 
 - [x] Permite o usuário escolher a forma do seu texto, com diversos formatos:
-- [x] Possui verão dark mode e light mode:
+- [x] Possui versão dark mode e light mode:
 - [x] Disponível para todos os dispositivos:
 
 ---
@@ -19,7 +19,7 @@ Página para editar textos de várias formas.
 ## 📱 Layout da Aplicação
 
  <p text  align="center">
-❗️Projeto em desenvolvimento❗️
+  <img img width= "700" src= "https://github.com/William-Dias-Marcos/Text_Formatting_React/blob/main/to_readme/text.gif"> 
  </p>
 
 ---
